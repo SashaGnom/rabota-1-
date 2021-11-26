@@ -1,0 +1,190 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    cout << "[Р] Русский" << endl;
+    cout << "[А] Английский" << endl;
+    int language;
+    cin >> language;
+    
+    switch (language)
+    {
+        case 1:
+        cout << "[1] Саша" << endl;
+        cout << "[2] Маша" << endl;
+        cout << "[3] Петя" << endl;
+        cout << "[4] Алах" << endl;
+        cout << "[5] Мама" << endl;
+        cout << "[6] Папа" << endl;
+        cout << "[7] Бум" << endl;
+        cout << "[8] Кот" << endl;
+        cout << "[9] Машина" << endl;
+        cout << "[10] Соль" << endl;
+        cout << "[11] Гей" << endl;
+        cout << "[12] Никита" << endl;
+        cout << "[13] Стас" << endl;
+        cout << "[14] Настя" << endl;
+        cout << "[15] Телефон" << endl;
+        cout << "Выберите слово";
+        
+        int number1;
+        cin >> number1;
+        switch (number1)
+        {
+            case 1:
+            cout << "Саша" << endl;
+            break;
+            
+            case 2:
+            cout << "Маша" << endl;
+            break;
+            
+            case 3:
+            cout << "петя" << endl;
+            break;
+            
+            case 4:
+            cout << "алах" << endl;
+            break;
+            
+            case 5:
+            cout << "мама" << endl;
+            break;
+            
+            case 6:
+            cout << "папа" << endl;
+            break;
+            
+            case 7:
+            cout << "бум" << endl;
+            break;
+            
+            case 8:
+            cout << "кот" << endl;
+            break;
+            
+            case 9:
+            cout << "машина" << endl;
+            break;
+            
+            case 10:
+            cout << "соль" << endl;
+            break;
+            
+            case 11:
+            cout << "гей" << endl;
+            break;
+            
+            case 12:
+            cout << "никита" << endl;
+            break;
+            
+            case 13:
+            cout << "стас" << endl;
+            break;
+            
+            case 14:
+            cout << "настья" << endl;
+            break;
+            
+            case 15:
+            cout << "телефон" << endl;
+            break;
+            
+            default:
+            cout << "Так не надо" << endl;
+            break;
+            }
+            break;
+            
+            case 2:
+            cout << "[1] Sasha" << endl;
+            cout << "[2] Masha" << endl;
+            cout << "[3] Petya" << endl;
+            cout << "[4] Allah" << endl;
+            cout << "[5] Mom" << endl;
+            cout << "[6] Dad" << endl;
+            cout << "[7] Boom" << endl;
+            cout << "[8] Cat" << endl;
+            cout << "[9] Machine" << endl;
+            cout << "[10] Salt" << endl;
+            cout << "[11] Gay" << endl;
+            cout << "[12] Nikita" << endl;
+            cout << "[13] Stas" << endl;
+            cout << "[14] Nastya" << endl;
+            cout << "[15] Phone" << endl;
+            cout << "Choose a word";
+            
+            int number2;
+            cin >> number2;
+            switch (number2)
+           {
+            case 1:
+            cout << "Sasha" << endl;
+            break;
+
+            case 2:
+            cout << "Masha" << endl;
+            break;
+
+            case 3:
+            cout << "petya" << endl;
+            break;
+
+            case 4:
+            cout << "alah" << endl;
+            break;
+
+            case 5:
+            cout << "mom" << endl;
+            break;
+
+            case 6:
+            cout << "dad" << endl;
+            break;
+
+            case 7:
+            cout << "boom" << endl;
+            break;
+
+            case 8:
+            cout << "cat" << endl;
+            break;
+
+            case 9:
+            cout << "machine" << endl;
+            break;
+
+            case 10:
+            cout << "salt" << endl;
+            break;
+
+            case 11:
+            cout << "gay" << endl;
+            break;
+ 
+            case 12:
+            cout << "nikita" << endl;
+            break;
+  
+            case 13:
+            cout << "stas" << endl;
+            break;
+
+            case 14:
+            cout << "nastya" << endl;
+            break;
+
+            case 15:
+            cout << "phone" << endl;
+            break;
+
+           default:
+           cout << "It's not necessary" << endl;
+           }
+      }
+    return 0;
+}
