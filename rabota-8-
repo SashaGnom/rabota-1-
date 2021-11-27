@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+double sum(double megafon, double CP0, char operation){
+    if (operation == '/' && CP0 == 0) return -1;
+    
+    switch (operation){
+        case '+': return megafon + CP0;
+        case '-': return megafon - CP0;
+        case '*': return megafon * CP0;
+        case '/': return megafon / CP0;
+        case 'V': return megafon * 15 / CP0;
+        case 'O': return megafon / 8 + CP0;
+        case 'B': return megafon + 2002 * CP0;
+        case 'A': return megafon - 1508 / CP0;
+        default: return -1;
+        
+    }
+}
+
+int main()
+{
+    setlocale(0, "");
+    cout<<"[∞] Первое число: ";
+    int Anime1;
+    cin >> Anime1;
+    
+    cout<<"[∞] Второе число: ";
+    int CP0;
+    cin >> CP0;
+    
+    cout<<"[∞] Действие: ";
+    char operation;
+    cin >> operation;
+    
+    cout << "[∞] Результат: " << sum(megafon, CP0, operation) << endl;
+
+    return 0;
+}
